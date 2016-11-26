@@ -1,0 +1,44 @@
+{
+  "name": "Bus Face",
+  "author": "Muffo",
+  "version": "1.0.0",
+  "keywords": ["pebble-app"],
+  "private": true,
+  "dependencies": {},
+  "pebble": {
+    "displayName": "busFace",
+    "uuid": "47f65db1-1712-4dc6-ae9e-7937eaec6fe7",
+    "sdkVersion": "3",
+    "enableMultiJS": true,
+    "targetPlatforms": [
+      "aplite",
+      "basalt",
+      "chalk",
+      "diorite"
+    ],
+    "watchapp": {
+      "watchface": true
+    },
+    "messageKeys": [
+      "DUEIN",
+      "SCHEDULED",
+      "DEPARTED"
+    ],
+    "resources": {
+      "media": [
+        {
+          "type": "font",
+          "name": "FONT_BRACIOLA_B_48",
+          "file": "fonts/Braciola_MS_ExB.ttf",
+          "compatibility": "2.7"
+        },
+        {
+          "type": "font",
+          "name": "FONT_BRACIOLA_R_24",
+          "file": "fonts/Braciola_MS.ttf",
+          "compatibility": "2.7"
+        }
+      ]
+    }
+  }
+}
